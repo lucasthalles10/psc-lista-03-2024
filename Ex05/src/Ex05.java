@@ -9,7 +9,7 @@ public class Ex05 {public static void main(String[] args) {
     System.out.print("Digite o segundo número: ");
     double n2 = sc.nextDouble();
     System.out.print("Digite o símbolo que deseja usar: (+) (-) (*) (/) (^): ");
-    char op = sc.next().charAt(0); // leitor de string
+    char op = sc.next().charAt(0); // leitor de string e conversor de caracter, pega o primeiro caractere  
     double resultado = 0;// inicializei a variavel para nao dar erro 
     switch (op) {
         case '-':
